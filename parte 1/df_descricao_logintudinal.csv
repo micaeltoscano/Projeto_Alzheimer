@@ -1,0 +1,16 @@
+﻿Nome da Coluna,Tipo de Dado,Descrição
+ID / Subject ID,object,Identificador único do paciente ou sujeito.
+MRI ID,object,Identificador específico do exame de ressonância magnética.
+Group,object,Classificação clínica: Demented (Com AD) ou Nondemented.
+Visit,int,Número da visita (sequencial para dados longitudinais).
+M/F,object,"Gênero do paciente (M: Masculino, F: Feminino)."
+Hand,object,"Mão dominante (Geralmente todos são destros ""R"")."
+Age,int,Idade do paciente no momento do exame.
+Educ / EDUC,float,Anos de escolaridade concluídos.
+SES,float,Status Socioeconômico (nível de renda/classe).
+MMSE,float,Pontuação no Mini-Exame do Estado Mental (Teste cognitivo).
+CDR,float,Clinical Dementia Rating (Gravidade da demência).
+eTIV,int/float,Volume Intracraniano Total Estimado (em mm³).
+nWBV,float,Volume Cerebral Total Normalizado (indicador de atrofia).
+ASF,float,Atlas Scaling Factor (Fator de escala para normalização).
+Delay / MR Delay,float,Tempo de atraso entre visitas ou exames de imagem.

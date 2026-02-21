@@ -1,0 +1,13 @@
+﻿Nome da Coluna,Tipo de Dado,Descrição
+ID / MRI ID,object,Identificador único do paciente ou do exame de ressonância.
+M/F,object,Gênero do paciente (Masculino ou Feminino).
+Hand,object,Mão dominante.
+Age,int,Idade do paciente em anos no momento do exame.
+Educ,float,Nível de escolaridade (anos de estudo).
+SES,float,Status Socioeconômico (nível de renda/classe social).
+MMSE,float,Pontuação no Mini-Exame do Estado Mental (avaliação cognitiva).
+CDR,float,Clinical Dementia Rating (escala de gravidade da demência).
+eTIV,int,Volume Intracraniano Total Estimado (mm³).
+nWBV,float,Volume Cerebral Total Normalizado (proporção de massa cinzenta).
+ASF,float,Atlas Scaling Factor (fator de escala para normalização).
+Delay,float,Tempo de atraso entre as visitas ou exames de imagem.
